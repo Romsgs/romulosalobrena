@@ -18,13 +18,13 @@ Na pasta deste projeto, execute `node server.mjs` e acesse http://127.0.0.1:4173
 
 Instagrams dos projetos: `@salobard_` e `@banda_area31`, nas respectivas páginas. Instagram pessoal: `@meu_krush`, no contato e no rodapé. Os oito endereços foram fornecidos pelo usuário; os nomes dos cinco grupos foram conferidos nas páginas oficiais em 3 de novembro de 2026. As participações são apresentadas conforme informado pelo usuário, sem inventar funções ou datas.
 
-Os textos e dados estão em `app.js`; a aparência está em `styles.css` e `socials.css`. As rotas usam fragmentos de URL e funcionam diretamente em qualquer hospedagem estática. A navegação suporta histórico do navegador, foco de teclado e menu móvel. Os botões de play abrem os vídeos diretamente no YouTube em uma nova aba.
+Os textos e dados estão em `app.js`; a aparência está em `styles.css`, `socials.css` e `identity.css`. As rotas usam fragmentos de URL e funcionam diretamente em qualquer hospedagem estática. A navegação suporta histórico do navegador, foco de teclado e menu móvel. Os botões de play abrem os vídeos diretamente no YouTube em uma nova aba.
 
 As imagens vieram da pasta `fotos/`, com os originais preservados. Fotografias ao vivo: Rapha Garcia (conforme os nomes dos arquivos fornecidos). Ilustrações foram usadas como artes, sem representar fotografias de eventos ou da formação do Igni Radix. A foto nessa seção é de Rômulo; a formação da banda ainda não foi detalhada.
 
 Nome público e quatro vídeos conferidos no YouTube em 3 de novembro de 2026. Os covers não foram atribuídos aos projetos autorais. Não há agenda, contato por formulário ou lançamentos inventados. O link principal é https://www.youtube.com/@Salobrenha.
 
-Fontes locais: Bricolage Grotesque e DM Sans. Licenças OFL na pasta `assets/`.
+Identidade: monograma R em vetor (`assets/monogram-r.svg`) no cabeçalho, rodapé, elementos de marca e favicon. Títulos usam Permanent Marker; Salobard e Igni Radix mantêm as serifas de suas identidades. Textos de leitura usam DM Sans, com Bricolage Grotesque em elementos de apoio. As fontes são locais; licenças Apache 2.0 (Permanent Marker) e OFL (demais fontes) na pasta `assets/`.
 
 ## Hospedagem
 

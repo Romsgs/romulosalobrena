@@ -1,0 +1,85 @@
+:root { --headline: 'Permanent Marker', 'Bricolage Grotesque', sans-serif; }
+
+/* One vector mark, recolored by each project's palette. */
+.monogram {
+  display: inline-block;
+  width: 44px;
+  height: 50px;
+  flex-shrink: 0;
+  background: var(--accent);
+  -webkit-mask: url('assets/monogram-r.svg') center / contain no-repeat;
+  mask: url('assets/monogram-r.svg') center / contain no-repeat;
+}
+.brand-mark { width: 48px; height: 54px; }
+.brand { font-family: var(--headline); font-weight: 400; letter-spacing: .005em; line-height: 1; }
+.brand-last { margin-top: 2px; font-size: 21px; }
+.footer-brand { font-family: var(--headline); font-weight: 400; letter-spacing: -.025em; font-size: 37px; }
+.footer-brand > .footer-mark { width: 39px; height: 45px; }
+.small-mark { width: 29px; height: 34px; }
+.inline-mark { width: 20px; height: 24px; }
+.about-mark { width: 165px; height: 185px; margin-top: 24px; transform: rotate(-8deg); }
+.contact-mark { width: 220px; height: 255px; right: var(--gutter); bottom: -24px; background: var(--ink); opacity: .055; transform: rotate(-12deg); pointer-events: none; }
+.huge-mark { width: 280px; height: 320px; justify-self: center; }
+
+/* Hand-painted titles; the manuscripts and world section keep their serif. */
+h1, h2, h3 { font-family: var(--headline); font-weight: 400; letter-spacing: -.02em; line-height: 1.13; }
+.home-hero h1 { font-size: clamp(55px, 6.1vw, 94px); letter-spacing: -.025em; line-height: 1.1; transform: rotate(-2deg); transform-origin: left center; }
+.section-intro h2 { font-size: clamp(35px, 3.7vw, 54px); }
+.project-card h3 { font-size: 27px; letter-spacing: -.025em; }
+.video-caption h3 { font-size: 26px; }
+.ensemble-intro h2 { font-size: clamp(42px, 4.7vw, 68px); }
+.ensemble-row h3 { font-family: var(--headline); font-weight: 400; letter-spacing: -.02em; font-size: clamp(23px, 2.15vw, 31px); }
+.about-teaser h2 { font-size: clamp(33px, 3vw, 46px); }
+.contact-section h2 { font-size: clamp(43px, 4.9vw, 73px); }
+.next-world h2 { font-size: 35px; }
+.world-links a { font-family: var(--headline); font-size: 22px; letter-spacing: -.025em; }
+.area-hero h1 { font-weight: 400; letter-spacing: -.04em; }
+.covers-hero h1 { font-size: clamp(59px, 6.4vw, 98px); letter-spacing: -.045em; line-height: 1.1; }
+.about-page h1 { font-size: clamp(65px, 6.8vw, 102px); letter-spacing: -.025em; }
+
+@media (max-width: 1100px) {
+  .brand-mark { width: 40px; height: 47px; }
+  .brand-last { font-size: 18px; }
+  .about-mark { width: 115px; height: 137px; }
+  .project-card h3 { font-size: 24px; }
+  .huge-mark { width: 225px; height: 265px; }
+  .ensemble-row h3 { font-size: 25px; }
+}
+@media (max-width: 800px) {
+  .brand-mark { width: 34px; height: 40px; }
+  .brand-last { font-size: 16px; }
+  .about-mark { display: none; }
+  .home-hero h1 { font-size: 6.3vw; }
+  .ensemble-intro h2 { font-size: 44px; }
+  .ensemble-row h3 { font-size: 22px; }
+  .covers-hero h1 { font-size: 6.6vw; }
+}
+@media (max-width: 720px) {
+  .brand-mark { width: 38px; height: 45px; }
+  .brand { font-size: 14px; }
+  .brand-last { font-size: 18px; }
+  .home-hero h1 { font-size: clamp(42px, 11.3vw, 76px); line-height: 1.14; transform: rotate(-2deg); }
+  .section-intro h2 { font-size: 34px; }
+  .project-card h3 { font-size: 23px; }
+  .video-caption h3 { font-size: 25px; }
+  .ensemble-intro h2 { font-size: 42px; }
+  .ensemble-row h3 { font-size: 24px; }
+  .about-teaser h2 { font-size: 32px; }
+  .about-teaser > .about-mark { display: block; width: 112px; height: 135px; margin: 0; justify-self: center; }
+  .contact-section h2 { font-size: 50px; }
+  .contact-mark { width: 185px; height: 215px; right: -10px; bottom: 15px; }
+  .next-world h2 { font-size: 32px; }
+  .world-links a { font-size: 23px; }
+  .huge-mark { width: 155px; height: 185px; justify-self: start; }
+  .covers-hero h1 { font-size: clamp(51px, 12.7vw, 80px); }
+  .about-page h1 { font-size: clamp(59px, 14.7vw, 90px); }
+  .footer-brand { font-size: 31px; }
+  .footer-brand > .footer-mark { width: 34px; height: 40px; }
+}
+@media (max-width: 360px) {
+  .home-hero h1 { font-size: 11vw; }
+  .brand-mark { width: 33px; height: 40px; }
+  .brand-last { font-size: 16px; }
+  .project-card h3 { font-size: 20px; }
+  .ensemble-row h3 { font-size: 22px; }
+}
